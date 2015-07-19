@@ -1,0 +1,6 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When we create a repository, the necessary files containing the metadata
+to be used for history tracking will be created. We need to init a
+repository in order for git to know that we are tracking a specific
+directory.

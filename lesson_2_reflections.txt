@@ -4,3 +4,11 @@ When we create a repository, the necessary files containing the metadata
 to be used for history tracking will be created. We need to init a
 repository in order for git to know that we are tracking a specific
 directory.
+
+How can you use the staging area to make sure you have one commit per
+logical change?
+
+We can make sure that we have one commit per logical change by adding
+just the necessary files for the single logical change to the staging
+area before executing the related commit.
+

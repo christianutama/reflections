@@ -16,4 +16,9 @@ Branches would be helpful whenever we want to make changes that we won't
 necessarily include in our main code and we want to test it out without
 breaking the main code, such as adding experimental features or adding
 another variant of our main code which may or may not be included in our
-final code. 
+final code.
+
+How do the diagrams help you visualize the branch structure?
+The diagrams help in the way that they shows us when or where the
+branches were created so we have an idea of how the branches are laid
+out. 

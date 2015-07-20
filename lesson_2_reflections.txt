@@ -30,4 +30,11 @@ changes/commits made from the two forming branches. We represent it
 in the diagram so that we know the entire history of commits and
 to have an idea of the parent commits.
 
- 
+What are the pros and cons of Git’s automatic merging vs. always doing 
+merges manually?
+Pros: Git will always detect whether it is possible to do automatic
+merging and ask for user response when it isn't, so it is much more
+convenient and straightforward compared to always doing merges manually.
+Cons: It is possible to make mistakes such as omitting some important lines when two people work on the same files and as a result of
+automatic merging, these lines will be omitted and may introduce bugs
+that are not immediately apparent to the user. 

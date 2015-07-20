@@ -41,3 +41,18 @@ project locally with the knowledge of the last state of the remote if
 we are not connected to the internet. That way, we can avoid conflicts
 that may be introduced if we don't know the last state of the remote, at
 least at our last time of pulling.
+
+How would you collaborate without using Git or GitHub? What would be 
+easier, and what would be harder?
+Collaborating without Git or GitHub can be done by working together
+in the same place on separate computers and constantly updating others
+on what changes each of us has made. Another way is to work separately
+and making use of Dropbox, Google Drive, or other cloud storage and
+communicating every time a change has been made, pretty much the same
+as the previous solution. Obviously, comparing and merging updates 
+would be much harder as it has to be done manually and line-by-line.
+Furthermore, people can work and update the same files at the same time
+so it may pose a problem because one person's update may be overwritten
+by the others because there is no mechanism such as creating branches 
+in Git and GitHub. As to what would be easier, it would be easier to 
+update/overwrite files without Git and GitHub but not in the right way.

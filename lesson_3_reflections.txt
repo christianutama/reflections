@@ -13,3 +13,22 @@ certain number of commits. Having Git automatically stay up-to-date with
 our remote repository will introduce the risk of reverting our local
 repository to its previous state as in the not-so-up-to-date remote
 repository.
+
+Describe the differences between forks, clones, and branches. When 
+would you use one instead of another?
+Forks: cloning a repository on GitHub to your own GitHub account. This
+is usually done whenever we don't have access to modify the mentioned
+repository or in other words, we are not listed as the contributors, and
+we want to make our own version of the repository.
+Clones: cloning a repository on GitHub or a local repository to a local
+repository on our computer. This is usually done whenever we want to
+clone our existing remote repository on GitHub to our computer and we
+have access to pull and push to the remote repository. Clones can also
+be used to clone a remote repository which we don't have the authority
+to contribute to but we want to work on it only on our computer(without
+remote push capability).
+Branches: cloning the state of the current branch to a new branch and
+usually done to test out experimental features which doesn't mess with
+the main/production quality code on the master branch. It is then up to
+us to decide whether to include the experimental features into the
+master branch by merging.

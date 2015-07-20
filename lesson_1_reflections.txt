@@ -7,10 +7,10 @@ us having to go through all the lines of the same codes. Convenient, eh?
 
 How could having easy access to the entire history of a file make you a
 more efficient programmer in the long term?
-Having easy access to the entire history of a file means that I will be
-able to see every single version of my code and every single change
-that I made to it. I will be able to point out bugs that I introduced
-in my code at a specific point in time AND how to resolve them. This is
+Having easy access to the entire history of a file means that we will be
+able to see every single version of our code and every single change
+that we made to it. We will be able to point out bugs that we introduced
+in our code at a specific point in time AND how to resolve them. This is
 particularly useful for programmers because sometimes the solutions that
 they are looking for were there, in their past codes, the entire time.
 

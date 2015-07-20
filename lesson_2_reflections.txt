@@ -1,5 +1,4 @@
 What happens when you initialize a repository? Why do you need to do it?
-
 When we create a repository, the necessary files containing the metadata
 to be used for history tracking will be created. We need to init a
 repository in order for git to know that we are tracking a specific
@@ -7,8 +6,14 @@ directory.
 
 How can you use the staging area to make sure you have one commit per
 logical change?
-
 We can make sure that we have one commit per logical change by adding
 just the necessary files for the single logical change to the staging
 area before executing the related commit.
 
+What are some situations when branches would be helpful in keeping your 
+history organized? How would branches help?
+Branches would be helpful whenever we want to make changes that we won't
+necessarily include in our main code and we want to test it out without
+breaking the main code, such as adding experimental features or adding
+another variant of our main code which may or may not be included in our
+final code. 

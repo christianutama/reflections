@@ -32,3 +32,12 @@ usually done to test out experimental features which doesn't mess with
 the main/production quality code on the master branch. It is then up to
 us to decide whether to include the experimental features into the
 master branch by merging.
+
+What is the benefit of having a copy of the last known state of the 
+remote stored locally?
+The benefit of having a copy of the last known state of the remote is
+obviously tied directly to connectivity. It allows us to work on our
+project locally with the knowledge of the last state of the remote if
+we are not connected to the internet. That way, we can avoid conflicts
+that may be introduced if we don't know the last state of the remote, at
+least at our last time of pulling.

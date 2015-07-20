@@ -56,3 +56,18 @@ so it may pose a problem because one person's update may be overwritten
 by the others because there is no mechanism such as creating branches 
 in Git and GitHub. As to what would be easier, it would be easier to 
 update/overwrite files without Git and GitHub but not in the right way.
+
+When would you want to make changes in a separate branch rather than 
+directly in master? What benefits does each approach have?
+Making changes in a separate branch has much more advantage as opposed
+to directly working on the master branch, especially when we are
+working with a number of collaborators. For instance, making sure that
+we don't break the master branch will be a whole lot easier because
+we can make sure that we resolve all the conflicts between our working
+branch and the master branch before merging, and that is a very
+convenient way of collaborating. As far as I'm concerned, working 
+directly on the main branch only has one advantage, which is simplicity.
+It is much more simple for us to work, commit, and merge on a single
+master branch as opposed to taking the long road by branching,
+especially if the project we are working on is not a very big one and
+we are working individually. 
